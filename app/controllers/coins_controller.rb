@@ -1,6 +1,7 @@
-class CoinsController < ApplicationController
+ class CoinsController < ApplicationController
   before_action :set_coin, only: %i[ show edit update destroy ]
 
+  layout "adm"
   # GET /coins or /coins.json
   def index
     @coins = Coin.all
