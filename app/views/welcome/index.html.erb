@@ -1,8 +1,8 @@
 <h1>Crypto Wallet</h1>
-
+<p> O idioma usado nessa aplicação é <strong><%= idioma %></strong></p>
 <p> 
     <strong> Data: </strong> 
-    <%= data_br(Date.today) %>  
+    <%= l(Date.today)%>  
 </p>
 
 <%= render "menu"%>
@@ -18,3 +18,5 @@ Seu curso é <strong> <%= @meu_curso %>. </strong>
 <p>
 Você está em ambiente de <%= Rails.env %>
 <p>
+
+<%= t("hello") %>

@@ -1,0 +1,9 @@
+pt-BR:
+  hello: "Olá Mundo"
+  options:
+    show: "Mostrar"
+    edit: "Editar"
+    delete: "Excluir"
+    new: "Nova Moeda"
+    back: "Voltar"
+    update: "Atualizar Moeda"

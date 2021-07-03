@@ -1,6 +1,5 @@
 module ApplicationHelper
-
-    def data_br(data_us)
-        data_us.strftime("%d/%m/%Y")
+    def idioma()
+        I18n.locale == :en ? "Inglês-EUA" : "Português-BR"
     end
 end

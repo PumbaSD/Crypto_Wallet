@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  options:
+    show: "Show"
+    edit: "Edit"
+    delete: "Delete"
+    new: "New Coin"
+    back: "Back"
+    update: "Update Coin"
