@@ -8,8 +8,9 @@ namespace :dev do
       show_spinner("Drop Database") { %x(rails db:drop:_unsafe) }
       show_spinner("Create Database") { %x(rails db:create) }
       show_spinner("Migrate Database") { %x(rails db:migrate) }
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
+      %x(rails dev:add_coins)
+      
     
     else
       puts "You don't be in development environment"
@@ -24,18 +25,21 @@ namespace :dev do
           {
             description: "Bitcoin",
             acronym: "BTC",
-            url_image: "https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"    
-        },
-        {
+            url_image: "https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png",    
+            mining_type: MiningType.find_by(acronym: 'PoW')
+          },
+          {
             description: "Ethereum",
             acronym: "ETC",
-            url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png/600px-ETHEREUM-YOUTUBE-PROFILE-PIC.png"
-        },
-        {
-            description: "Dash Coin",
-            acronym: "DASH",
-            url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
-        }
+            url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png/600px-ETHEREUM-YOUTUBE-PROFILE-PIC.png",
+            mining_type: MiningType.all.sample
+          },
+          {
+              description: "Dash Coin",
+              acronym: "DASH",
+              url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png",
+              mining_type: MiningType.all.sample
+          }
         ]
 
       coin.each do |coin| 
