@@ -27,8 +27,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :mining_type, "Mining Type" %>
-    <%= form.select("mining_type_id", @mining_type_options, {include_blank: "Selecione"} ) %>
+    <%= form.label :mining_type %>
+    <%= form.select("mining_type_id", @mining_type_options, {include_blank: t("options.select")} ) %>
   </div>
 
   <div class="actions">
