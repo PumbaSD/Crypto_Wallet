@@ -1,4 +1,5 @@
-pt-BR:
+pt-BR: 
+  actual_locale: "Português (Brasil)"
   hello: "Olá Mundo"
   options:
     show: "Mostrar"

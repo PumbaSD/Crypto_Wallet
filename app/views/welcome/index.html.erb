@@ -1,5 +1,12 @@
+<p>
+    <%= link_to 'Português-BR', root_path(locale: 'pt-BR') %>
+</p>
+<p>
+    <%= link_to 'English-INT',  root_path(locale: 'en') %>
+</p>
+
 <h1>Crypto Wallet</h1>
-<p> O idioma usado nessa aplicação é <strong><%= idioma %></strong></p>
+<p> O idioma usado nessa aplicação é <strong><%= t("actual_locale") %></strong></p>
 <p> 
     <strong> Data: </strong> 
     <%= l(Date.today)%>  
