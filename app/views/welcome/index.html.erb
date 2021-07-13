@@ -1,27 +1,11 @@
-<p>
-    <%= link_to 'Português-BR', root_path(locale: 'pt-BR') %>
-</p>
-<p>
-    <%= link_to 'English-INT',  root_path(locale: 'en') %>
-</p>
+<div class="jumbotron">
+  <h1 class="display-4"> <%= t("welcome") %> </h1>
+  <p class="lead"> <%= t('messages.welcome') %> </p>
+  <hr class="my-4">
+  <p> <%= t('messages.menu') %> </p>
+    
+  <%= render "menu"%>
+</div>
 
-<h1>Crypto Wallet</h1>
-<p> O idioma usado nessa aplicação é <strong><%= t("actual_locale") %></strong></p>
-<p> 
-    <strong> Data: </strong> 
-    <%= l(Date.today)%>  
-</p>
 
-<%= render "menu"%>
 
-<p>
-Seu nome é <strong> <%= @meu_nome %>. </strong> 
-</p>
-
-<p>
-Seu curso é <strong> <%= @meu_curso %>. </strong> 
-</p>
-
-<p>
-Você está em ambiente de <strong> <%= Rails.env %> </strong>
-<p>

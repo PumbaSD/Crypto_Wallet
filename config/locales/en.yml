@@ -31,11 +31,17 @@
 
 en:
   actual_locale: "English (International)"
+  welcome: "Welcome!"
   hello: "Hello world"
+  messages:
+    welcome: "This is the Crypton Wallet, an app that you can register your digital money."
+    menu: "To start, choose an options below:"
+    confirm: "Are you Sure?"
   options:
     show: "Show"
     edit: "Edit"
     delete: "Delete"
-    new: "New Coin"
+    newCoin: "New Coin"
     back: "Back"
     update: "Update Coin"
+    newMiningType: "New Mining Type"
