@@ -2,8 +2,8 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pumba-dev/crypto-wallet-rails?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/pumba-dev/crypto-wallet-rails?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/pumba-dev/adein-to-sdm?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/github/issues-pr/pumba-dev/adein-to-sdm?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/pumba-dev/crypto-wallet-rails?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/github/issues-pr/pumba-dev/crypto-wallet-rails?style=for-the-badge)
 
 <br>
 
@@ -24,7 +24,7 @@ Para contribuir com website, siga estas etapas:
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <adein-to-sdm> / <local>`
+4. Envie para o branch original: `git push origin <crypto-wallet-rails> / <local>`
 5. Crie a solicitação de pull.
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
