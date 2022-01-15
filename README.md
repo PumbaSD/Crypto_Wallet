@@ -47,12 +47,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-<br>
-
 ## 😄 Seja um dos Contribuidores<br>
 
 Entre em contato para se tornar um contribuidor.
-
 
 ## 💰 Donate
 
